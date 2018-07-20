@@ -12,48 +12,45 @@
 <body>
 <div class="slider">
     <div style="background-color: #E92D46" class="slider-dot" onclick="$.scrollify.move(0);"></div>
-    <div style="background-color: #F08747"  class="slider-dot" onclick="$.scrollify.move(1);"></div>
-    <div style="background-color: #FBC653"  class="slider-dot" onclick="$.scrollify.move(2);"></div>
-    <div style="background-color: #6AD7E9"  class="slider-dot" onclick="$.scrollify.move(3);"></div>
-    <div style="background-color: #439CA9"  class="slider-dot" onclick="$.scrollify.move(4);"></div>
-    <div style="background-color: #395FCC"  class="slider-dot" onclick="$.scrollify.move(5);"></div>
-    <div style="background-color: #AE55E6"  class="slider-dot" onclick="$.scrollify.move(6);"></div>
+    <div style="background-color: #F08747" class="slider-dot" onclick="$.scrollify.move(1);"></div>
+    <div style="background-color: #FBC653" class="slider-dot" onclick="$.scrollify.move(2);"></div>
+    <div style="background-color: #6AD7E9" class="slider-dot" onclick="$.scrollify.move(3);"></div>
+    <div style="background-color: #439CA9" class="slider-dot" onclick="$.scrollify.move(4);"></div>
+    <div style="background-color: #395FCC" class="slider-dot" onclick="$.scrollify.move(5);"></div>
+    <div style="background-color: #AE55E6" class="slider-dot" onclick="$.scrollify.move(6);"></div>
 </div>
-<section data-section-name="home">
+
+<section class="iphone-wrapper d-flex align-items-center justify-content-center flex-column position-relative">
     <header class="d-flex justify-content-between align-items-center">
         <img src="./assets/logo.svg" alt="SocialKit">
         <nav>
             <a href="#home" onclick="$.scrollify.move(0);">Home</a>
             <a href="#manage" onclick="$.scrollify.move(1);">Services</a>
-            <a href="#about"  onclick="$.scrollify.move(4);">About Us</a>
+            <a href="#about" onclick="$.scrollify.move(4);">About Us</a>
             <a href="#clients" onclick="$.scrollify.move(5);">Clients</a>
             <a href="#contacts" onclick="$.scrollify.move(6);">Get Started</a>
         </nav>
     </header>
-    <section class="iphone-wrapper d-flex align-items-center justify-content-center position-relative">
+    <video src="./assets/video.mp4" type="video/mp4" autoplay="autoplay" muted="muted" preload="auto" loop>
 
+    </video>
 
-        <video src="./assets/video.mp4" type="video/mp4" autoplay="autoplay" muted="muted" preload="auto" loop>
-
-        </video>
-
-        <div id="iphone" class="iphone position-relative ">
-            <img src="./assets/emoji.svg" alt="emoji" class="emoji">
-            <div class="inner-container">
-                <video src="./assets/video.mp4"
-                       class="bgvid inner" autoplay="autoplay" muted="muted" preload="auto" loop>
-                </video>
-                <div class="box d-flex justify-content-center align-items-center">
-                    <img src="./assets/notification.svg" alt="">
-                </div>
+    <div id="iphone" class="iphone position-relative ">
+        <img src="./assets/emoji.svg" alt="emoji" class="emoji">
+        <div class="inner-container">
+            <video src="./assets/video.mp4"
+                   class="bgvid inner" autoplay="autoplay" muted="muted" preload="auto" loop>
+            </video>
+            <div class="box d-flex justify-content-center align-items-center">
+                <img src="./assets/notification.svg" alt="">
             </div>
-            <img src="./assets/iphone.svg" alt="">
         </div>
-    </section>
+        <img src="./assets/iphone.svg" alt="">
+    </div>
 </section>
 
 <section id="manage"
-         data-section-name="manage"
+
          class="position-relative content row m-0 justify-content-between align-items-center section">
     <img class="circle-svg" src="./assets/circle.svg" alt="">
     <img class="cross-svg" src="./assets/cross.svg" alt="">
@@ -72,8 +69,7 @@
 </section>
 
 
-<section id="create" class="position-relative d-flex flex-column justify-content-center align-items-center"
-         data-section-name="create">
+<section id="create" class="position-relative d-flex flex-column justify-content-center align-items-center">
     <img src="./assets/create_cross.svg" alt="" class="position-absolute cross">
     <img src="./assets/create_circle.svg" alt="" class="position-absolute circle-small">
     <img src="./assets/circle_big_create.svg" alt="" class="position-absolute circle-big">
@@ -100,8 +96,7 @@
 </section>
 
 
-<section id="growth" class="position-relative content row m-0 justify-content-between align-items-center"
-         data-section-name="growth">
+<section id="growth" class="position-relative content row m-0 justify-content-between align-items-center">
     <img src="./assets/triangle_growth.svg" alt="" class="position-absolute triangle">
     <img src="./assets/create_circle.svg" alt="" class="position-absolute circle-small">
     <img src="./assets/create_circle.svg" alt="" class="position-absolute circle-big">
@@ -124,8 +119,7 @@
 </section>
 
 
-<section id="about" class="d-flex flex-column align-items-center justify-content-center"
-         data-section-name="about">
+<section id="about" class="d-flex flex-column align-items-center justify-content-center">
     <h2>What is SocialKit?</h2>
     <p>SocialKit is a digital media agency that consist of a team of
         highly-experienced social media managers and graphic designers.
@@ -148,8 +142,7 @@
 </section>
 
 
-<section id="reviews" class="d-flex justify-content-center align-items-center flex-column"
-         data-section-name="clients">
+<section id="reviews" class="d-flex justify-content-center align-items-center flex-column">
     <div class="review first d-flex justify-content-center align-items-center">
         <img src="./assets/review_avatar_1.svg" class="circle-review" alt="">
         <div class="message-review d-flex flex-column position-relative">
@@ -190,8 +183,7 @@
 </section>
 
 
-<section id="pricing" class="position-relative  d-flex flex-column align-items-center justify-content-center"
-         data-section-name="contacts">
+<section id="pricing" class="position-relative  d-flex flex-column align-items-center justify-content-center">
     <img src="./assets/create_circle.svg" class="small-circle" alt="">
     <img src="./assets/circle.svg" class="half-circle" alt="">
     <img src="./assets/empty-circle.svg" class="empty-circle" alt="">
@@ -231,8 +223,6 @@
                 </tbody>
             </table>
         </div>
-
-
         <div class="border-table pro-border  p-0">
             <table class="pro  ">
                 <tbody>
@@ -299,9 +289,7 @@
             </table>
         </div>
     </div>
-
     <footer>
-
         <h1>© 2018 SocialKit</h1>
     </footer>
 </section>
