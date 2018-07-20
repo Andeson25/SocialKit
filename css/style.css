@@ -126,7 +126,8 @@ section#manage figure {
   margin: 0 8% 0 0;
 }
 section#manage figure.back-card {
-  height: 50vh;
+  height: 35vw;
+  width: 20%;
   background-image: url("../assets/ManageBack.png");
   background-size: cover;
   background-position: center center;
@@ -172,8 +173,8 @@ section#create .circle-big {
 section#create figure.back-card {
   top: -2vh;
   left: 2vw;
-  height: 50vh;
-  width: 15%;
+  height: 35vw;
+  width: 20%;
   background-image: url("../assets/ManageBack.png");
   background-size: cover;
   background-position: center center;
@@ -205,27 +206,28 @@ section#create figure.back-card figure.middle-card figure.front-card {
   background-color: white !important;
 }
 section#create figure.back-card figure.middle-card figure.front-card img {
-  width: 100%;
+  width: 80%;
 }
 section#create .text {
   width: 100%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 section#create .text h2 {
   text-align: center;
   font-family: Montserrat-SemiBold;
-  font-size: 65px;
+  font-size: 48px;
   color: #5A5A5A;
   letter-spacing: 0;
-  line-height: 60px;
+  line-height: 54px;
 }
 section#create .text p {
+  margin: 0;
   text-align: center;
   font-family: Montserrat-Light;
-  font-size: 25px;
+  font-size: 22px;
   color: #5A5A5A;
   letter-spacing: 0;
-  line-height: 30px;
+  line-height: 24px;
 }
 
 section#growth {
@@ -266,7 +268,8 @@ section#growth .text p {
 }
 section#growth figure.back-card {
   margin: 0 0 0 20%;
-  height: 50vh;
+  height: 35vw;
+  width: 20%;
   background-image: url("../assets/ManageBack.png");
   background-size: cover;
   background-position: center center;
@@ -387,6 +390,9 @@ section#reviews .review.third .message-review img {
 }
 
 section#pricing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   min-height: 100vh !important;
   width: 100%;
 }
@@ -409,29 +415,35 @@ section#pricing img.empty-circle {
   width: 6%;
 }
 section#pricing h2 {
+  margin: 0;
   text-align: center;
   font-family: Montserrat-SemiBold;
   font-size: 50px;
   color: #5A5A5A;
+  line-height: 60px;
   letter-spacing: 0;
   text-align: center;
 }
 section#pricing p {
+  margin: 0;
   text-align: center;
   font-family: Montserrat-Light;
   font-size: 22px;
+  line-height: 24px;
   color: #5A5A5A;
   text-align: center;
 }
 section#pricing .pricing {
   width: 100%;
+  height: calc(100vh - 108px);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 2%;
 }
 section#pricing .pricing .border-table {
-  min-height: 70vh;
+  height: 100%;
+  width: 30%;
   overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -440,18 +452,20 @@ section#pricing .pricing .border-table {
   border-radius: 10px;
 }
 section#pricing .pricing table {
+  height: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #FFFFFF;
   width: 100%;
 }
-section#pricing .pricing table th {
+section#pricing .pricing table tbody th {
   width: 100%;
+  height: 23%;
   padding: 10px;
   text-align: center;
-  font-family: Montserrat-Regular;
-  font-size: 43px;
+  font-family: Montserrat-Regular, sans-serif;
+  font-size: 38px;
   color: #5A5A5A;
   font-weight: normal;
   letter-spacing: 0;
@@ -461,45 +475,51 @@ section#pricing .pricing table th {
   box-sizing: border-box;
   border-bottom: 2px solid rgba(151, 151, 151, 0.25);
 }
-section#pricing .pricing table th sup {
-  font-family: Montserrat-Light;
+section#pricing .pricing table tbody th sup {
+  font-family: Montserrat-Light, sans-serif;
   font-size: 15px;
   font-weight: lighter;
   color: #5A5A5A;
   letter-spacing: 0;
   text-align: center;
 }
-section#pricing .pricing table td {
+section#pricing .pricing table tbody td {
   text-align: center;
-  height: 10vh;
-  padding: 11px;
-  padding: 10px 15px;
+  height: 18%;
+  padding: 5px 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border-bottom: 2px solid rgba(151, 151, 151, 0.25);
   font-family: Montserrat-Regular;
-  font-size: 18px;
+  font-size: 16px;
   color: #5A5A5A;
   letter-spacing: 0;
   text-align: center;
 }
-section#pricing .pricing table tr:last-child td {
-  padding: 10px;
-  height: auto;
+section#pricing .pricing table tbody tr:last-child {
+  height: 23%;
+}
+section#pricing .pricing table tbody tr:last-child td {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 20px 0;
   border-bottom: 0;
 }
-section#pricing .pricing table tr:last-child td button {
+section#pricing .pricing table tbody tr:last-child td button {
   display: block;
   cursor: pointer;
-  margin: 30px auto 10px;
+  margin: 30px auto 0;
+  border: 0;
   background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
   font-size: 20px;
   border-radius: 100px;
-  padding: 15px 40px;
+  padding: 20px 40px;
   color: #ffffff;
 }
-section#pricing .pricing table tr:last-child td button:hover {
+section#pricing .pricing table tbody tr:last-child td button:hover {
   background-image: linear-gradient(-179deg, #e8921e 0%, #ce652c 100%);
 }
 section#pricing .pricing div.pro-border {
@@ -524,7 +544,7 @@ section#pricing .pricing div.pro-border tr:last-child td button {
   cursor: pointer;
   background: #fff !important;
   border-radius: 100px;
-  padding: 15px 40px;
+  padding: 20px 40px;
   font-family: Montserrat-SemiBold;
   font-size: 20px;
   color: #F0782F;
