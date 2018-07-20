@@ -70,7 +70,6 @@ section.iphone-wrapper video, section.iphone-wrapper embed {
   transform: scale(1.2);
   position: absolute;
   height: 100vh;
-  top: -120px;
 }
 section.iphone-wrapper .iphone {
   visibility: hidden;
@@ -98,8 +97,8 @@ section.iphone-wrapper .iphone .inner-container {
   overflow: hidden;
 }
 section.iphone-wrapper .iphone .inner {
-  top: calc(-50vh - 120px + 50%);
-  left: calc(-50vw + 50%);
+  top: calc(-50vh );
+  left: calc(-50vw);
   -webkit-filter: blur(15px);
   -ms-filter: blur(15px);
   -o-filter: blur(15px);
