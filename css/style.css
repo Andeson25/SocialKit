@@ -1,0 +1,549 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 15px 20px;
+}
+header img {
+  max-height: 80px;
+}
+header nav {
+  font-family: Montserrat-Regular;
+}
+header nav a {
+  color: #5A5A5A;
+  margin-right: 30px;
+  font-size: 22px;
+}
+header nav a:hover {
+  text-underline-color: #5A5A5A;
+  color: #5A5A5A;
+}
+header nav a:last-child {
+  text-decoration: none;
+  margin-right: 0;
+  background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
+  border-radius: 100px;
+  padding: 15px 20px;
+  color: #ffffff;
+}
+header nav a:last-child:hover {
+  background-image: linear-gradient(-179deg, #e8921e 0%, #ce652c 100%);
+}
+
+section.iphone-wrapper {
+  width: 100%;
+  height: calc(100vh - 110px);
+  overflow: hidden;
+}
+section.iphone-wrapper video, section.iphone-wrapper embed {
+  transform: scale(1.2);
+  position: absolute;
+  height: 100vh;
+  top: -120px;
+}
+section.iphone-wrapper .iphone {
+  width: 50%;
+}
+section.iphone-wrapper .iphone .emoji {
+  position: absolute;
+  z-index: 2;
+  top: -30%;
+  left: -5%;
+  width: 110%;
+}
+section.iphone-wrapper .iphone img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+section.iphone-wrapper .iphone .inner-container {
+  width: 98%;
+  height: 90%;
+  border-radius: 10%;
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  overflow: hidden;
+}
+section.iphone-wrapper .iphone .inner {
+  top: calc(-50vh + 55px - 120px + 50%);
+  left: calc(-50vw + 50%);
+  -webkit-filter: blur(15px);
+  -ms-filter: blur(15px);
+  -o-filter: blur(15px);
+  filter: blur(15px);
+}
+section.iphone-wrapper .iphone .box {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+}
+section.iphone-wrapper .iphone .box img {
+  width: 60%;
+}
+
+section#manage {
+  height: 100vh;
+  width: 100%;
+}
+section#manage > img.circle-svg {
+  left: 0;
+  top: 0;
+  width: 20%;
+  position: absolute;
+}
+section#manage > img.cross-svg {
+  width: 25%;
+  right: 0;
+  bottom: 0vh;
+  position: absolute;
+}
+section#manage .text {
+  margin-left: 20%;
+}
+section#manage .text h2 {
+  font-family: Montserrat-SemiBold;
+  font-size: 65px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  line-height: 60px;
+}
+section#manage .text p {
+  font-family: Montserrat-Light;
+  font-size: 25px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+section#manage figure {
+  margin: 0 8% 0 0;
+}
+section#manage figure.back-card {
+  height: 50vh;
+  background-image: url("/assets/ManageBack.png");
+  background-size: cover;
+  background-position: center center;
+  box-shadow: rgba(0, 0, 0, 0.8) -1px 4px 40px;
+  border-radius: 5px;
+}
+section#manage figure.back-card figure.front-card {
+  border-radius: 5px;
+  position: relative;
+  border: 5px solid yellow;
+  box-shadow: rgba(0, 0, 0, 0.5) -1px 5px 50px;
+  border-image: url("/assets/ManageBack.png") 5 round round;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  top: -5%;
+  right: -10%;
+  padding: 0 15%;
+}
+section#manage figure.back-card figure.front-card img {
+  width: 100%;
+}
+
+section#create {
+  width: 100%;
+  height: 100vh;
+}
+section#create .cross {
+  left: 0;
+  bottom: 0;
+  width: 15%;
+}
+section#create .circle-small {
+  right: 10%;
+  width: 8%;
+  bottom: 40vh;
+}
+section#create .circle-big {
+  right: 0;
+  width: 8%;
+  bottom: 50vh;
+}
+section#create figure.back-card {
+  top: -2vh;
+  left: 2vw;
+  height: 50vh;
+  width: 15%;
+  background-image: url("/assets/ManageBack.png");
+  background-size: cover;
+  background-position: center center;
+  box-shadow: rgba(0, 0, 0, 0.8) -1px 4px 40px;
+  border-radius: 5px;
+  position: relative;
+}
+section#create figure.back-card figure.middle-card {
+  top: 4vh;
+  left: -4vw;
+  position: relative;
+  height: 100%;
+  background-image: url("/assets/ManageBack.png");
+  background-size: cover;
+  background-position: center center;
+  box-shadow: rgba(0, 0, 0, 0.8) -1px 4px 40px;
+  border-radius: 5px;
+}
+section#create figure.back-card figure.middle-card figure.front-card {
+  top: -2vh;
+  left: 2vw;
+  position: relative;
+  border-radius: 5px;
+  border: 5px solid yellow;
+  box-shadow: rgba(0, 0, 0, 0.5) -1px 5px 50px;
+  border-image: url("/assets/ManageBack.png") 5 round round;
+  height: 100%;
+  padding: 0 15%;
+  background-color: white !important;
+}
+section#create figure.back-card figure.middle-card figure.front-card img {
+  width: 100%;
+}
+section#create .text {
+  width: 100%;
+  margin-top: 5%;
+}
+section#create .text h2 {
+  text-align: center;
+  font-family: Montserrat-SemiBold;
+  font-size: 65px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  line-height: 60px;
+}
+section#create .text p {
+  text-align: center;
+  font-family: Montserrat-Light;
+  font-size: 25px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+section#growth {
+  height: 100vh;
+  width: 100%;
+}
+section#growth .triangle {
+  width: 30%;
+  left: 0;
+  top: 15vh;
+}
+section#growth .circle-small {
+  width: 5%;
+  top: 30vh;
+  right: 5%;
+}
+section#growth .circle-big {
+  width: 10%;
+  top: 10vh;
+  right: 10%;
+}
+section#growth .text {
+  margin-right: 10%;
+}
+section#growth .text h2 {
+  font-family: Montserrat-SemiBold;
+  font-size: 65px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  line-height: 60px;
+}
+section#growth .text p {
+  font-family: Montserrat-Light;
+  font-size: 25px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+section#growth figure.back-card {
+  margin: 0 0 0 20%;
+  height: 50vh;
+  background-image: url("/assets/ManageBack.png");
+  background-size: cover;
+  background-position: center center;
+  box-shadow: rgba(0, 0, 0, 0.8) -1px 4px 40px;
+  border-radius: 5px;
+  bottom: -2vh;
+  right: -1vw;
+}
+section#growth figure.back-card figure.front-card {
+  bottom: 2vh;
+  right: 1vw;
+  height: 100%;
+  border-radius: 5px;
+  position: relative;
+  border: 5px solid yellow;
+  box-shadow: rgba(0, 0, 0, 0.5) -1px 5px 50px;
+  border-image: url("/assets/ManageBack.png") 5 round round;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 0 15%;
+}
+section#growth figure.back-card figure.front-card img {
+  width: 100%;
+}
+
+section#about {
+  width: 100%;
+  min-height: 100vh;
+}
+section#about h2 {
+  text-align: center;
+  font-family: Montserrat-SemiBold;
+  font-size: 50px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  text-align: center;
+}
+section#about p {
+  width: 70%;
+  text-align: center;
+  font-family: Montserrat-Light;
+  font-size: 22px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  text-align: center;
+}
+section#about img {
+  width: 12%;
+}
+
+section#reviews {
+  height: 100vh;
+  width: 100%;
+}
+section#reviews .review {
+  width: 70%;
+}
+section#reviews .review.first {
+  margin-bottom: 25px;
+}
+section#reviews .review .circle-review {
+  width: 18%;
+  margin-right: 5%;
+}
+section#reviews .review .message-review {
+  border-radius: 20px;
+  padding: 20px 30px;
+  background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
+}
+section#reviews .review .message-review img {
+  height: 50px;
+  left: -49px;
+  filter: brightness(101%);
+  bottom: 25px;
+}
+section#reviews .review .message-review p {
+  font-family: Montserrat-Regular;
+  font-size: 22px;
+  line-height: 25px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin: 0;
+}
+section#reviews .review .message-review small {
+  text-align: end;
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+section#reviews .review.second .circle-review {
+  margin-right: 0;
+  margin-left: 5%;
+}
+section#reviews .review.second .message-review {
+  background-image: linear-gradient(-179deg, #57C9EA 0%, #01A8CB 100%) !important;
+}
+section#reviews .review.second .message-review img {
+  height: 40px;
+  left: unset;
+  filter: brightness(102%);
+  right: -45px;
+  bottom: 15px;
+}
+section#reviews .review.third {
+  margin-top: 25px;
+}
+section#reviews .review.third .message-review {
+  background-image: linear-gradient(-179deg, #EE3869 0%, #ED1A43 100%);
+}
+section#reviews .review.third .message-review img {
+  filter: brightness(101%);
+  right: unset;
+  left: -44px;
+  bottom: 15px;
+}
+
+section#pricing {
+  min-height: 100vh !important;
+  width: 100%;
+}
+section#pricing img.small-circle {
+  position: absolute;
+  right: 20%;
+  top: -10vh;
+  width: 5%;
+}
+section#pricing img.half-circle {
+  position: absolute;
+  left: 0;
+  top: -80vh;
+  width: 30%;
+}
+section#pricing img.empty-circle {
+  position: absolute;
+  right: 12%;
+  top: 0;
+  width: 6%;
+}
+section#pricing h2 {
+  text-align: center;
+  font-family: Montserrat-SemiBold;
+  font-size: 50px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  text-align: center;
+}
+section#pricing p {
+  text-align: center;
+  font-family: Montserrat-Light;
+  font-size: 22px;
+  color: #5A5A5A;
+  text-align: center;
+}
+section#pricing .pricing {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 2%;
+}
+section#pricing .pricing .border-table {
+  min-height: 70vh;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid rgba(151, 151, 151, 0.25);
+  border-radius: 10px;
+}
+section#pricing .pricing table {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  width: 100%;
+}
+section#pricing .pricing table th {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-family: Montserrat-Regular;
+  font-size: 43px;
+  color: #5A5A5A;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(151, 151, 151, 0.25);
+}
+section#pricing .pricing table th sup {
+  font-family: Montserrat-Light;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  text-align: center;
+}
+section#pricing .pricing table td {
+  text-align: center;
+  height: 10vh;
+  padding: 11px;
+  padding: 10px 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(151, 151, 151, 0.25);
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  text-align: center;
+}
+section#pricing .pricing table tr:last-child td {
+  padding: 10px;
+  height: auto;
+  border-bottom: 0;
+}
+section#pricing .pricing table tr:last-child td button {
+  display: block;
+  cursor: pointer;
+  margin: 30px auto 10px;
+  background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
+  font-size: 20px;
+  border-radius: 100px;
+  padding: 15px 40px;
+  color: #ffffff;
+}
+section#pricing .pricing table tr:last-child td button:hover {
+  background-image: linear-gradient(-179deg, #e8921e 0%, #ce652c 100%);
+}
+section#pricing .pricing div.pro-border {
+  margin: 0 2%;
+  border: 0;
+  background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
+}
+section#pricing .pricing div.pro-border table.pro {
+  background-color: transparent;
+}
+section#pricing .pricing div.pro-border table.pro * {
+  color: white;
+}
+section#pricing .pricing div.pro-border table.pro td, section#pricing .pricing div.pro-border table.pro th {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+section#pricing .pricing div.pro-border tr:last-child td {
+  border-bottom: 0;
+}
+section#pricing .pricing div.pro-border tr:last-child td button {
+  border: 0;
+  cursor: pointer;
+  background: #fff !important;
+  border-radius: 100px;
+  padding: 15px 40px;
+  font-family: Montserrat-SemiBold;
+  font-size: 20px;
+  color: #F0782F;
+  letter-spacing: 0;
+  text-align: center;
+}
+section#pricing .pricing div.pro-border tr:last-child td button:hover {
+  color: black;
+}
+
+footer {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+footer h1 {
+  font-family: Montserrat-Light;
+  font-size: 25px;
+  color: #5A5A5A;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
