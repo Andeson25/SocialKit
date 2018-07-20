@@ -45,6 +45,7 @@ section.iphone-wrapper video, section.iphone-wrapper embed {
   top: -120px;
 }
 section.iphone-wrapper .iphone {
+  visibility: hidden;
   width: 50%;
 }
 section.iphone-wrapper .iphone .emoji {
