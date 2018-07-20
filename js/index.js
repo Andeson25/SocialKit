@@ -17,6 +17,6 @@ $(document).ready(() => {
         easing: 'ease-out',
         scale: 1
     });
-    sr.reveal('#iphone', {delay: 500});
+    sr.reveal('#iphone', {delay: 300});
 });
 
