@@ -3,6 +3,26 @@ body, html {
   padding: 0;
 }
 
+.slider {
+  position: sticky;
+  left: calc(100% - 30px);
+  height: 190px;
+  top: calc(50vh - 95px);
+  width: 15px;
+  z-index: 10;
+}
+.slider .slider-dot {
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  margin-bottom: 20px;
+}
+.slider .slider-dot:last-child {
+  margin-bottom: 0;
+}
+
 header {
   padding: 15px 20px;
 }
@@ -16,6 +36,7 @@ header nav a {
   color: #5A5A5A;
   margin-right: 30px;
   font-size: 22px;
+  cursor: pointer;
 }
 header nav a:hover {
   text-underline-color: #5A5A5A;
