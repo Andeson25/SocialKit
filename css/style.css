@@ -3,15 +3,18 @@ body, html {
   padding: 0;
 }
 
+body {
+  position: relative;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
 
 .slider {
-  float: right;
-  position: sticky;
+  position: fixed;
   height: 190px;
-  margin-right: 20px;
+  right: 20px;
   top: calc(50vh - 95px);
   width: 15px;
   z-index: 10;
@@ -494,7 +497,7 @@ section#pricing .pricing table tbody th {
   height: 23%;
   padding: 10px;
   text-align: center;
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: Montserrat-Regular;
   font-size: 38px;
   color: #5A5A5A;
   font-weight: normal;
@@ -506,7 +509,7 @@ section#pricing .pricing table tbody th {
   border-bottom: 2px solid rgba(151, 151, 151, 0.25);
 }
 section#pricing .pricing table tbody th sup {
-  font-family: Montserrat-Light, sans-serif;
+  font-family: Montserrat-Light;
   font-size: 15px;
   font-weight: lighter;
   color: #5A5A5A;
