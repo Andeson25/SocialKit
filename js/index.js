@@ -11,13 +11,13 @@ $(document).ready(() => {
     });
 
     window.sr = ScrollReveal({
-        duration: 600,
+        duration: 500,
         origin: 'bottom',
-        distance: '5vh',
+        distance: '10vh',
         easing: 'ease-out',
         scale: 1
     });
-    sr.reveal('#iphone', {delay: 300});
+    sr.reveal('#iphone', {delay: 200});
 
 
 
