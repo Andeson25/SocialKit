@@ -43,7 +43,9 @@ $(document).ready(() => {
 
 
 
-
+    $('a').click(e=>{
+        e.preventDefault();
+    })
 
     $(function () {
         $.scrollify(
