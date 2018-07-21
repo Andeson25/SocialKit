@@ -89,16 +89,18 @@ section.iphone-wrapper .iphone img {
 }
 section.iphone-wrapper .iphone .inner-container {
   width: 98%;
-  height: 90%;
+  height: 94%;
   border-radius: 10%;
   position: absolute;
-  top: 5%;
+  top: 4%;
   left: 1%;
   overflow: hidden;
 }
 section.iphone-wrapper .iphone .inner {
+  transform: scale(1.2);
   top: calc(-50vh + 50% );
-  left: calc(-50vw + 50%);
+  left: calc(-25vw + 1%);
+  width: 100vw;
   -webkit-filter: blur(15px);
   -ms-filter: blur(15px);
   -o-filter: blur(15px);
