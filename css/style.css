@@ -23,6 +23,9 @@ body, html {
   height: 10px;
   margin-bottom: 20px;
 }
+.slider .slider-dot:hover {
+  transform: scale(1.5);
+}
 .slider .slider-dot:last-child {
   margin-bottom: 0;
 }
