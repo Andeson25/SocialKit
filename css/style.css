@@ -721,21 +721,21 @@ footer h1 {
   text-align: center;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1300px) {
   #reviews .review .message-review p {
-    font-size: 30px;
-    line-height: 1;
+    font-size: 18px !important;
+    line-height: 26px !important;
   }
   #reviews .review .message-review small {
-    font-size: 18px;
-    line-height: 1;
+    font-size: 14px !important;
+    line-height: 18px !important;
   }
 
   #pricing .pricing .border-table table th {
-    font-size: 48px;
+    font-size: 48px !important;
   }
   #pricing .pricing .border-table table td {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 }
 
