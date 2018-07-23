@@ -148,7 +148,7 @@ section.iphone-wrapper .iphone .box {
   color: #fff;
 }
 section.iphone-wrapper .iphone .box .notification {
-  width: 478px;
+  width: 420px;
   background: rgba(0, 0, 0, 0.85);
   border-radius: 13px;
 }
@@ -722,6 +722,15 @@ footer h1 {
 }
 
 @media screen and (min-width: 1600px) {
+  #reviews .review .message-review p {
+    font-size: 30px;
+    line-height: 1;
+  }
+  #reviews .review .message-review small {
+    font-size: 18px;
+    line-height: 1;
+  }
+
   #pricing .pricing .border-table table th {
     font-size: 48px;
   }
