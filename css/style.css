@@ -72,7 +72,7 @@ section.iphone-wrapper header {
   padding: 10px 20px 0;
 }
 section.iphone-wrapper header img {
-  max-height: 70px;
+  max-height: 60px;
 }
 section.iphone-wrapper header nav {
   font-family: Montserrat-Regular;
@@ -81,7 +81,7 @@ section.iphone-wrapper header nav a {
   color: #5A5A5A;
   margin-right: 30px;
   line-height: 24px;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
 }
 section.iphone-wrapper header nav a:hover {
