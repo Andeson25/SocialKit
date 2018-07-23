@@ -172,6 +172,7 @@ section.iphone-wrapper .iphone .box .notification .text p {
   margin-bottom: 2px;
 }
 section.iphone-wrapper .iphone .box .notification .text small {
+  cursor: pointer;
   opacity: 0.35;
   font-family: Montserrat-Regular;
   font-size: 10px;
