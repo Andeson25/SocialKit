@@ -447,7 +447,8 @@ section#about p {
   text-align: center;
 }
 section#about img {
-  width: 12%;
+  margin-top: 15px;
+  width: 10%;
 }
 
 section#reviews {
