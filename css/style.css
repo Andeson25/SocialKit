@@ -78,7 +78,7 @@ section.iphone-wrapper header nav a {
   color: #5A5A5A;
   margin-right: 30px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
 }
 section.iphone-wrapper header nav a:hover {
@@ -91,7 +91,7 @@ section.iphone-wrapper header nav a:last-child {
   margin-right: 0;
   background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
   border-radius: 100px;
-  padding: 15px 20px;
+  padding: 15px 30px;
   color: #ffffff;
 }
 section.iphone-wrapper header nav a:last-child:hover {
@@ -656,7 +656,7 @@ section#pricing .pricing table tbody tr:last-child td {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 5px 0 2vh;
+  padding: 2vh 0 2vh;
   border-bottom: 0;
 }
 section#pricing .pricing table tbody tr:last-child td a {
@@ -719,6 +719,15 @@ footer h1 {
   color: #5A5A5A;
   letter-spacing: 0;
   text-align: center;
+}
+
+@media screen and (min-width: 1600px) {
+  #pricing .pricing .border-table table th {
+    font-size: 48px;
+  }
+  #pricing .pricing .border-table table td {
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
