@@ -69,7 +69,7 @@ section.iphone-wrapper header {
   padding: 15px 20px;
 }
 section.iphone-wrapper header img {
-  max-height: 60px;
+  max-height: 50px;
 }
 section.iphone-wrapper header nav {
   font-family: Montserrat-Regular;
@@ -78,7 +78,7 @@ section.iphone-wrapper header nav a {
   color: #5A5A5A;
   margin-right: 30px;
   line-height: 24px;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
 }
 section.iphone-wrapper header nav a:hover {
@@ -105,7 +105,7 @@ section.iphone-wrapper video, section.iphone-wrapper embed {
 }
 section.iphone-wrapper .iphone {
   visibility: hidden;
-  width: 50%;
+  width: 48%;
 }
 section.iphone-wrapper .iphone .emoji {
   position: absolute;
@@ -148,8 +148,8 @@ section.iphone-wrapper .iphone .box {
   color: #fff;
 }
 section.iphone-wrapper .iphone .box .notification {
-  width: 450px;
-  background: rgba(0, 0, 0, 0.7);
+  width: 478px;
+  background: rgba(0, 0, 0, 0.85);
   border-radius: 13px;
 }
 section.iphone-wrapper .iphone .box .notification .text {
@@ -186,7 +186,7 @@ section.iphone-wrapper .iphone .box .notification .top {
   border-top-right-radius: 13px;
   border-top-left-radius: 13px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
 }
 section.iphone-wrapper .iphone .box .notification .top .left {
   height: 100%;
@@ -432,7 +432,7 @@ section#about {
 section#about h2 {
   text-align: center;
   font-family: Montserrat-SemiBold;
-  font-size: 50px;
+  font-size: 45px;
   color: #5A5A5A;
   letter-spacing: 0;
   text-align: center;
@@ -441,14 +441,14 @@ section#about p {
   width: 70%;
   text-align: center;
   font-family: Montserrat-ExtraLight;
-  font-size: 22px;
+  font-size: 20px;
   color: #5A5A5A;
   letter-spacing: 0;
   text-align: center;
 }
 section#about img {
   margin-top: 15px;
-  width: 10%;
+  width: 8%;
 }
 
 section#reviews {
@@ -462,24 +462,24 @@ section#reviews .review.first {
   margin-bottom: 25px;
 }
 section#reviews .review .circle-review {
-  width: 18%;
-  margin-right: 5%;
+  width: 12%;
+  margin-right: 3%;
 }
 section#reviews .review .message-review {
   border-radius: 20px;
-  padding: 20px 30px;
+  padding: 10px 25px;
   background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
 }
 section#reviews .review .message-review img {
-  height: 50px;
-  left: -49px;
+  height: 30px;
+  left: -29px;
   filter: brightness(101%);
   bottom: 25px;
 }
 section#reviews .review .message-review p {
   font-family: Montserrat-Light;
-  font-size: 22px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 24px;
   color: #FFFFFF;
   letter-spacing: 0;
   margin: 0;
@@ -488,23 +488,23 @@ section#reviews .review .message-review small {
   text-align: end;
   font-family: Montserrat-ExtraLight;
   font-weight: lighter;
-  font-size: 18px;
+  font-size: 15px;
   color: #FFFFFF;
   letter-spacing: 0;
   line-height: 24px;
 }
 section#reviews .review.second .circle-review {
   margin-right: 0;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 section#reviews .review.second .message-review {
   background-image: linear-gradient(-179deg, #57C9EA 0%, #01A8CB 100%) !important;
 }
 section#reviews .review.second .message-review img {
-  height: 40px;
+  height: 30px;
   left: unset;
   filter: brightness(102%);
-  right: -45px;
+  right: -29px;
   bottom: 15px;
 }
 section#reviews .review.third {
@@ -516,15 +516,28 @@ section#reviews .review.third .message-review {
 section#reviews .review.third .message-review img {
   filter: brightness(101%);
   right: unset;
-  left: -44px;
+  left: -27px;
   bottom: 15px;
+}
+section#reviews a {
+  text-decoration: none;
+  color: #5F5F5F;
+  cursor: pointer;
+  border: 2px solid #5F5F5F;
+  border-radius: 25px;
+  padding: 10px 40px;
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: transparent;
+  margin-top: 60px;
 }
 
 section#pricing {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 20px 0;
+  padding: 20px 0 10px;
   min-height: 100vh !important;
   width: 100%;
 }
@@ -550,9 +563,9 @@ section#pricing h2 {
   margin: 0;
   text-align: center;
   font-family: Montserrat-SemiBold;
-  font-size: 50px;
+  font-size: 40px;
   color: #5A5A5A;
-  line-height: 60px;
+  line-height: 40px;
   letter-spacing: 0;
   text-align: center;
 }
@@ -560,18 +573,18 @@ section#pricing p {
   margin: 0;
   text-align: center;
   font-family: Montserrat-ExtraLight;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 24px;
   color: #5A5A5A;
   text-align: center;
 }
 section#pricing .pricing {
+  padding: 30px 0 40px;
   width: 100%;
   height: calc(100vh - 108px);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 2%;
 }
 section#pricing .pricing .border-table {
   height: 100%;
@@ -593,7 +606,7 @@ section#pricing .pricing table {
 }
 section#pricing .pricing table tbody th {
   width: 100%;
-  height: 23%;
+  height: 24%;
   padding: 10px;
   text-align: center;
   font-family: Montserrat-SemiBold;
@@ -620,7 +633,7 @@ section#pricing .pricing table tbody th sup {
 }
 section#pricing .pricing table tbody td {
   text-align: center;
-  height: 18%;
+  height: 16%;
   padding: 5px 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -636,31 +649,33 @@ section#pricing .pricing table tbody td strong {
   font-family: Montserrat-SemiBold;
 }
 section#pricing .pricing table tbody tr:last-child {
-  height: 23%;
+  height: 28%;
 }
 section#pricing .pricing table tbody tr:last-child td {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 5px 0 15px;
+  padding: 5px 0 40px;
   border-bottom: 0;
 }
-section#pricing .pricing table tbody tr:last-child td button {
+section#pricing .pricing table tbody tr:last-child td a {
+  text-decoration: none;
   vertical-align: bottom;
+  outline: none;
   display: block;
   cursor: pointer;
   margin: 0 auto;
-  width: 65%;
+  width: 60%;
   font-family: Montserrat-SemiBold;
   border: 0;
   background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
   font-size: 16px;
   border-radius: 100px;
-  padding: 15px 0;
+  padding: 10px 0;
   color: #ffffff;
 }
-section#pricing .pricing table tbody tr:last-child td button:hover {
+section#pricing .pricing table tbody tr:last-child td a:hover {
   background-image: linear-gradient(-179deg, #e8921e 0%, #ce652c 100%);
 }
 section#pricing .pricing div.pro-border {
@@ -680,7 +695,7 @@ section#pricing .pricing div.pro-border table.pro td, section#pricing .pricing d
 section#pricing .pricing div.pro-border tr:last-child td {
   border-bottom: 0;
 }
-section#pricing .pricing div.pro-border tr:last-child td button {
+section#pricing .pricing div.pro-border tr:last-child td a {
   border: 0;
   cursor: pointer;
   background: #fff !important;
@@ -690,7 +705,7 @@ section#pricing .pricing div.pro-border tr:last-child td button {
   letter-spacing: 0;
   text-align: center;
 }
-section#pricing .pricing div.pro-border tr:last-child td button:hover {
+section#pricing .pricing div.pro-border tr:last-child td a:hover {
   color: black;
 }
 

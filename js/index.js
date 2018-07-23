@@ -36,6 +36,7 @@ $(document).ready(() => {
     sr.reveal('#reviews .review:nth-child(1)',{delay:200,origin:'right'});
     sr.reveal('#reviews .review:nth-child(2)',{delay:400,origin:'left'});
     sr.reveal('#reviews .review:nth-child(3)',{delay:600,origin:'right'});
+    sr.reveal('#reviews a',{delay:800,origin:'left'});
 
 
     sr.reveal('#pricing > *',{delay:200,origin:'top'},50);
@@ -43,7 +44,7 @@ $(document).ready(() => {
 
 
 
-    $('a').click(e=>{
+    $('header a:not(.link)').click(e=>{
         e.preventDefault();
     });
 
