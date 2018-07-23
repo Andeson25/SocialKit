@@ -63,10 +63,13 @@ section.iphone-wrapper {
 }
 section.iphone-wrapper header {
   position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   top: 0;
   z-index: 10;
   width: 100%;
-  padding: 15px 20px;
+  padding: 10px 20px 0;
 }
 section.iphone-wrapper header img {
   max-height: 50px;
