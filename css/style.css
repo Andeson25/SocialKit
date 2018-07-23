@@ -148,17 +148,17 @@ section.iphone-wrapper .iphone .box {
   color: #fff;
 }
 section.iphone-wrapper .iphone .box .notification {
-  width: 460px;
+  width: 450px;
   background: rgba(0, 0, 0, 0.7);
   border-radius: 13px;
 }
 section.iphone-wrapper .iphone .box .notification .text {
-  padding: 12.5px 14px;
+  padding: 7px 14px;
 }
 section.iphone-wrapper .iphone .box .notification .text h3 {
   opacity: 0.9;
   font-family: Montserrat-SemiBold;
-  font-size: 15px;
+  font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 0;
   margin-bottom: 0;
@@ -174,7 +174,7 @@ section.iphone-wrapper .iphone .box .notification .text p {
 section.iphone-wrapper .iphone .box .notification .text small {
   opacity: 0.35;
   font-family: Montserrat-Regular;
-  font-size: 11px;
+  font-size: 10px;
   color: #FFFFFF;
   letter-spacing: 0;
 }
@@ -182,7 +182,7 @@ section.iphone-wrapper .iphone .box .notification .top {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 8px 14px;
+  padding: 4px 14px;
   border-top-right-radius: 13px;
   border-top-left-radius: 13px;
   width: 100%;
