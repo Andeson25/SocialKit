@@ -7,7 +7,7 @@ $(document).ready(() => {
         duration: 500,
         distance: '5vh',
         easing: 'ease-out',
-        scale: 1
+        scale: 1,
     });
 
 
@@ -45,7 +45,7 @@ $(document).ready(() => {
 
     $('a').click(e=>{
         e.preventDefault();
-    })
+    });
 
     $(function () {
         $.scrollify(
