@@ -656,7 +656,7 @@ section#pricing .pricing table tbody tr:last-child td {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2vh 0 2vh;
+  padding: 2vh 0 4vh;
   border-bottom: 0;
 }
 section#pricing .pricing table tbody tr:last-child td a {
