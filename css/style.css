@@ -78,7 +78,7 @@ section.iphone-wrapper header nav a {
   color: #5A5A5A;
   margin-right: 30px;
   line-height: 24px;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
 }
 section.iphone-wrapper header nav a:hover {
@@ -148,7 +148,7 @@ section.iphone-wrapper .iphone .box {
   color: #fff;
 }
 section.iphone-wrapper .iphone .box .notification {
-  width: 55%;
+  width: 460px;
   background: rgba(0, 0, 0, 0.7);
   border-radius: 13px;
 }
@@ -161,6 +161,7 @@ section.iphone-wrapper .iphone .box .notification .text h3 {
   font-size: 15px;
   color: #FFFFFF;
   letter-spacing: 0;
+  margin-bottom: 0;
 }
 section.iphone-wrapper .iphone .box .notification .text p {
   opacity: 0.9;
@@ -168,7 +169,7 @@ section.iphone-wrapper .iphone .box .notification .text p {
   font-size: 13px;
   color: #FFFFFF;
   letter-spacing: 0;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 section.iphone-wrapper .iphone .box .notification .text small {
   opacity: 0.35;
@@ -229,11 +230,11 @@ section#manage > img.cross-svg {
   position: absolute;
 }
 section#manage .text {
+  margin-right: 2.5%;
   width: 100%;
   margin-top: 2%;
 }
 section#manage .text h2 {
-  text-align: center;
   font-family: Montserrat-SemiBold;
   font-size: 50px;
   color: #5A5A5A;
@@ -242,21 +243,20 @@ section#manage .text h2 {
 }
 section#manage .text p {
   margin: 0;
-  text-align: center;
   font-family: Montserrat-ExtraLight;
-  font-size: 22px;
+  font-size: 20px;
   color: #5A5A5A;
   letter-spacing: 0;
   line-height: 24px;
 }
 section#manage figure {
-  margin: 0 0 0 0;
+  margin: 0 0 0 2.5%;
 }
 section#manage figure.back-card {
   margin-right: 5%;
   visibility: hidden;
-  height: 32.5vw;
-  width: 20%;
+  height: 27vw;
+  width: 17%;
   background-image: url("../assets/ManageBack.png");
   background-size: cover;
   background-position: center center;
@@ -302,8 +302,8 @@ section#create .circle-big {
 section#create figure.back-card {
   top: -2vh;
   left: 2vw;
-  height: 32.5vw;
-  width: 20%;
+  height: 27vw;
+  width: 17%;
   background-image: url("../assets/ManageBack.png");
   background-size: cover;
   background-position: center center;
@@ -353,7 +353,7 @@ section#create .text p {
   margin: 0;
   text-align: center;
   font-family: Montserrat-Light;
-  font-size: 22px;
+  font-size: 20px;
   color: #5A5A5A;
   letter-spacing: 0;
   line-height: 24px;
@@ -379,7 +379,7 @@ section#growth .circle-big {
   right: 10%;
 }
 section#growth .text {
-  margin-right: 10%;
+  margin-left: 2.5%;
 }
 section#growth .text h2 {
   font-family: Montserrat-SemiBold;
@@ -390,15 +390,15 @@ section#growth .text h2 {
 }
 section#growth .text p {
   font-family: Montserrat-ExtraLight;
-  font-size: 22px;
+  font-size: 20px;
   color: #5A5A5A;
   letter-spacing: 0;
   line-height: 30px;
 }
 section#growth figure.back-card {
-  margin: 0 0 0 20%;
-  height: 32.5vw;
-  width: 20%;
+  margin: 0 2.5% 0 0;
+  height: 27vw;
+  width: 17%;
   background-image: url("../assets/ManageBack.png");
   background-size: cover;
   background-position: center center;
@@ -642,20 +642,22 @@ section#pricing .pricing table tbody tr:last-child td {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  padding: 20px 0;
+  justify-content: space-between;
+  padding: 5px 0 15px;
   border-bottom: 0;
 }
 section#pricing .pricing table tbody tr:last-child td button {
+  vertical-align: bottom;
   display: block;
   cursor: pointer;
-  margin: 30px auto 0;
+  margin: 0 auto;
+  width: 65%;
   font-family: Montserrat-SemiBold;
   border: 0;
   background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
-  font-size: 20px;
+  font-size: 16px;
   border-radius: 100px;
-  padding: 15px 30px;
+  padding: 15px 0;
   color: #ffffff;
 }
 section#pricing .pricing table tbody tr:last-child td button:hover {
@@ -683,9 +685,7 @@ section#pricing .pricing div.pro-border tr:last-child td button {
   cursor: pointer;
   background: #fff !important;
   border-radius: 100px;
-  padding: 15px 30px;
   font-family: Montserrat-SemiBold;
-  font-size: 20px;
   color: #F0782F;
   letter-spacing: 0;
   text-align: center;
