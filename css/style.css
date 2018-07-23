@@ -561,7 +561,6 @@ section#pricing img.empty-circle {
   width: 6%;
 }
 section#pricing h2 {
-  margin: 0;
   text-align: center;
   font-family: Montserrat-SemiBold;
   font-size: 40px;
@@ -666,7 +665,7 @@ section#pricing .pricing table tbody tr:last-child td a {
   outline: none;
   display: block;
   cursor: pointer;
-  margin: 0 auto;
+  margin: 20px auto 0;
   width: 60%;
   font-family: Montserrat-SemiBold;
   border: 0;
