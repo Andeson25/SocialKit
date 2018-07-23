@@ -710,12 +710,13 @@ section#pricing .pricing div.pro-border tr:last-child td a:hover {
 }
 
 footer {
-  margin-top: 70px;
-  margin-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 footer h1 {
   font-family: Montserrat-Light;
-  font-size: 22px;
+  font-size: 18px;
+  line-height: 24px;
   color: #5A5A5A;
   letter-spacing: 0;
   text-align: center;
