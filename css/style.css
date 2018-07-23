@@ -134,10 +134,10 @@ section.iphone-wrapper .iphone .inner {
   left: calc(-25vw - 1%);
   height: 50vw;
   width: 100vw;
-  -webkit-filter: blur(15px);
-  -ms-filter: blur(15px);
-  -o-filter: blur(15px);
-  filter: blur(15px);
+  -webkit-filter: blur(10px);
+  -ms-filter: blur(10x);
+  -o-filter: blur(10px);
+  filter: blur(10px);
 }
 section.iphone-wrapper .iphone .box {
   position: absolute;
