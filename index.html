@@ -44,16 +44,17 @@
 
         </nav>
     </header>
-    <video src="./assets/video.mp4" type="video/mp4" autoplay="autoplay" muted="muted" preload="auto" loop>
-
+    <video autoplay    playsinline oncanplaythrough="this.play()"   loop muted preload="auto">
+        <source src="./assets/video.webm" type="video/webm">
     </video>
 
     <div id="iphone" class="iphone position-relative ">
         <img src="./assets/emoji.svg" alt="emoji" class="emoji">
         <div class="inner-container">
-            <video src="./assets/video.mp4"
-                   class="bgvid inner" autoplay="autoplay" muted="muted" preload="auto" loop>
+            <video class="bgvid inner" oncanplaythrough="this.play()"  autoplay playsinline controls="true"   loop muted preload="auto">
+                <source src="./assets/video.webm" type="video/webm">
             </video>
+
             <div class="box d-flex justify-content-center align-items-center">
                 <!--<img src="./assets/notification.svg" alt="">-->
                 <div class="notification  ">

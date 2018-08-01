@@ -1,4 +1,6 @@
 $(document).ready(() => {
+
+
     let arr = document.getElementsByClassName('slider-dot');
     let index = $.scrollify.currentIndex();
 
@@ -10,41 +12,38 @@ $(document).ready(() => {
         scale: 1,
     });
 
-
-    sr.reveal('#iphone', {delay: 200,origin:'bottom'});
-
-
-    sr.reveal('#manage .text', {delay: 400,origin:'left'});
-    sr.reveal('#manage figure', {delay: 200,origin:'right'});
+    document.getElementsByTagName('video')[0].setAttribute('muted','true');
+    document.getElementsByTagName('video')[1].setAttribute('muted','true');
+    sr.reveal('#iphone', {delay: 200, origin: 'bottom'});
 
 
-    sr.reveal('#create figure',{delay:200,origin:'top'});
-    sr.reveal('#create h2, #create p',{delay:400,origin:'bottom'});
+    sr.reveal('#manage .text', {delay: 400, origin: 'left'});
+    sr.reveal('#manage figure', {delay: 200, origin: 'right'});
 
 
-    sr.reveal('#growth figure',{delay:200,origin:'left'});
-    sr.reveal('#growth .text',{delay:400,origin:'right'});
+    sr.reveal('#create figure', {delay: 200, origin: 'top'});
+    sr.reveal('#create h2, #create p', {delay: 400, origin: 'bottom'});
 
 
-
-    sr.reveal('#about h2',{delay:200,origin:'bottom'});
-    sr.reveal('#about p',{delay:400,origin:'bottom'});
-    sr.reveal('#about img',{delay:600,origin:'bottom'});
+    sr.reveal('#growth figure', {delay: 200, origin: 'left'});
+    sr.reveal('#growth .text', {delay: 400, origin: 'right'});
 
 
-
-    sr.reveal('#reviews .review:nth-child(1)',{delay:200,origin:'right'});
-    sr.reveal('#reviews .review:nth-child(2)',{delay:400,origin:'left'});
-    sr.reveal('#reviews .review:nth-child(3)',{delay:600,origin:'right'});
-    sr.reveal('#reviews a',{delay:800,origin:'left'});
+    sr.reveal('#about h2', {delay: 200, origin: 'bottom'});
+    sr.reveal('#about p', {delay: 400, origin: 'bottom'});
+    sr.reveal('#about img', {delay: 600, origin: 'bottom'});
 
 
-    sr.reveal('#pricing > *',{delay:200,origin:'top'},50);
+    sr.reveal('#reviews .review:nth-child(1)', {delay: 200, origin: 'right'});
+    sr.reveal('#reviews .review:nth-child(2)', {delay: 400, origin: 'left'});
+    sr.reveal('#reviews .review:nth-child(3)', {delay: 600, origin: 'right'});
+    sr.reveal('#reviews a', {delay: 800, origin: 'left'});
 
 
+    sr.reveal('#pricing > *', {delay: 200, origin: 'top'}, 50);
 
 
-    $('header a:not(.link)').click(e=>{
+    $('header a:not(.link)').click(e => {
         e.preventDefault();
     });
 
@@ -69,8 +68,8 @@ $(document).ready(() => {
         );
     });
 
-        $('.burger').on('click',()=>{
+    $('.burger').on('click', () => {
 
-        });
+    });
 });
 

@@ -104,7 +104,8 @@ section.iphone-wrapper header nav a:last-child {
 section.iphone-wrapper header nav a:last-child:hover {
   background-image: linear-gradient(-179deg, #e8921e 0%, #ce652c 100%);
 }
-section.iphone-wrapper video, section.iphone-wrapper embed {
+section.iphone-wrapper video {
+  border: none;
   transform: scale(1.2);
   position: absolute;
   height: 50vw;
