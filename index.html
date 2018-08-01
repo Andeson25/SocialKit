@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SocialKit</title>
     <link rel="icon" href="./assets/icon.png" type="image/png" sizes="32x32"/>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
@@ -19,7 +21,14 @@
     <div style="background-color: #395FCC" class="slider-dot" onclick="$.scrollify.move(5);"></div>
     <div style="background-color: #AE55E6" class="slider-dot" onclick="$.scrollify.move(6);"></div>
 </div>
-
+<header class="mobile-header  justify-content-between align-items-center">
+    <img src="./assets/logo.svg" alt="SocialKit">
+    <div class="burger d-flex flex-column justify-content-between">
+        <div class="burger-line top"></div>
+        <div class="burger-line middle"></div>
+        <div class="burger-line bottom"></div>
+    </div>
+</header>
 <section class="iphone-wrapper d-flex align-items-center justify-content-center flex-column position-relative">
     <header class="d-flex justify-content-between align-items-center">
         <img src="./assets/logo.svg" alt="SocialKit">

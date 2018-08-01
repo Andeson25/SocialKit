@@ -1,0 +1,68 @@
+@media only screen and (max-device-width: 700px) {
+  .slider {
+    display: none;
+  }
+
+  header.mobile-header {
+    position: fixed;
+    height: 65px;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex !important;
+    padding: 10px 20px;
+  }
+  header.mobile-header img {
+    height: 45px;
+  }
+  header.mobile-header .burger {
+    height: 35px;
+  }
+  header.mobile-header .burger .burger-line {
+    width: 45px;
+    height: 8px;
+    background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
+    border-radius: 100px;
+  }
+
+  section.iphone-wrapper header {
+    display: none !important;
+  }
+  section.iphone-wrapper .iphone {
+    width: 90%;
+  }
+  section.iphone-wrapper .iphone .emoji {
+    left: -1%;
+  }
+  section.iphone-wrapper .iphone .inner-container .inner {
+    top: calc(-4vw) !important;
+    left: calc(-13vw) !important;
+  }
+  section.iphone-wrapper .iphone .inner-container .box .notification {
+    width: 70% !important;
+  }
+  section.iphone-wrapper .iphone .inner-container .box .notification .top img {
+    height: 25px;
+  }
+  section.iphone-wrapper .iphone .inner-container .box .notification .top h2 {
+    font-size: 10px;
+  }
+  section.iphone-wrapper .iphone .inner-container .box .notification .top small {
+    font-size: 7px;
+  }
+  section.iphone-wrapper .iphone .inner-container .box .notification .text h3 {
+    font-size: 9px;
+  }
+  section.iphone-wrapper .iphone .inner-container .box .notification .text p {
+    font-size: 8px;
+  }
+
+  section:not(.iphone-wrapper) {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
