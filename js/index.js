@@ -12,8 +12,17 @@ $(document).ready(() => {
         scale: 1,
     });
 
-    document.getElementsByTagName('video')[0].setAttribute('muted','true');
-    document.getElementsByTagName('video')[1].setAttribute('muted','true');
+    let ua = navigator.userAgent.toLowerCase();
+    let is_safari = (ua.indexOf("safari/") > -1 && ua.indexOf("chrome") < 0);
+    if (is_safari) {
+        let video = document.getElementsByTagName('video');
+        setTimeout(function () {
+            video[0].play();
+            video[1].play();
+        }, 50);
+    }
+    document.getElementsByTagName('video')[0].setAttribute('muted', 'true');
+    document.getElementsByTagName('video')[1].setAttribute('muted', 'true');
     sr.reveal('#iphone', {delay: 200, origin: 'bottom'});
 
 
