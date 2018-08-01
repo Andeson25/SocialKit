@@ -141,13 +141,13 @@ $(document).ready(() => {
                 'animation': 'moveBot .5s',
                 'position': 'absolute',
                 'transform': 'rotate(45deg)',
-                'top': '28.5px'
+                'top': '13.5px'
             });
             bottom.css({
                 'animation': 'moveTop .5s',
                 'position': 'absolute',
                 'transform': 'rotate(-45deg)',
-                'bottom': '28.5px'
+                'top': '13.5px'
             });
             middle.css('display', 'none');
 
