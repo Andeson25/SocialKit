@@ -1,11 +1,6 @@
 $(document).ready(() => {
 
 
-
-
-
-
-
     let ua = navigator.userAgent.toLowerCase();
     let is_safari = (ua.indexOf("safari/") > -1 && ua.indexOf("chrome") < 0);
     if (is_safari) {
@@ -51,7 +46,7 @@ $(document).ready(() => {
 
 
         sr.reveal('#pricing > *', {delay: 200, origin: 'top'}, 50);
-    }else{
+    } else {
         window.sr = ScrollReveal({
             duration: 500,
             distance: '5vh',
@@ -131,42 +126,56 @@ $(document).ready(() => {
     }
 
     $('.burger').click(() => {
+        let burger = $('.burger');
         let middle = $('.burger .middle');
         let top = $('.burger .top');
         let bottom = $('.burger .bottom');
         if (!show_menu) {
             showBurger();
             show_menu = true;
-            top.css({
-                'animation': 'moveBot .5s',
-                'position': 'absolute',
-                'transform': 'rotate(45deg)',
-                'top': '13.5px'
+            middle.css({
+                'opacity': '0'
             });
-            bottom.css({
-                'animation': 'moveTop .5s',
-                'position': 'absolute',
-                'transform': 'rotate(-45deg)',
-                'top': '13.5px'
-            });
-            middle.css('display', 'none');
+            // burger.removeClass(' d-flex flex-column justify-content-between align-items-center');
+            top.removeClass('moveTopRev');
+            bottom.removeClass('moveBottomRev');
+            top.addClass('moveBottom');
+            bottom.addClass('moveTop');
+
+            // top.css({
+            //     'animation': 'moveBot .5s',
+            //     'transform': 'rotate(45deg)',
+            //     'top': '13.5px'
+            // });
+            // bottom.css({
+            //     'animation': 'moveTop .5s',
+            //     'bottom': '13.5px',
+            //     'transform': 'rotate(-45deg)'
+            // });
+
 
         } else {
             showBurger();
             show_menu = false;
-            top.css({
-                'animation': 'moveTopRev .5s',
-                'transform': 'rotate(0)',
-                'top': '0px',
-                'position': 'static',
+            // burger.addClass(' d-flex flex-column justify-content-between align-items-center');
+            top.removeClass('moveBottom');
+            bottom.removeClass('moveTop');
+            top.addClass('moveTopRev');
+            bottom.addClass('moveBottomRev');
+            // top.css({
+            //     'animation': 'moveTopRev .5s',
+            //     'transform': 'rotate(0)',
+            //     'top': '0',
+            // });
+            // bottom.css({
+            //     'animation': 'moveBotRev .5s',
+            //     'transform': 'rotate(0)',
+            //     'bottom': '0',
+            // });
+            middle.css({
+                'opacity': '1'
             });
-            bottom.css({
-                'animation': 'moveBotRev .5s',
-                'transform': 'rotate(0)',
-                'bottom': '0',
-                'position': 'static'
-            });
-            setTimeout(middle.css('display', 'block'), 500)
+
         }
     });
 });

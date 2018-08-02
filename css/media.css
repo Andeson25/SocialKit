@@ -26,12 +26,21 @@
     z-index: 15;
   }
   header.mobile-header .burger .burger-line {
+    -webkit-transition: 0.2s all linear;
+    -o-transition: 0.2s all linear;
     transition: 0.2s all linear;
     width: 45px;
     height: 8px;
+    background-image: -webkit-linear-gradient(269deg, #F89F1C 0%, #EF7231 100%);
+    background-image: -o-linear-gradient(269deg, #F89F1C 0%, #EF7231 100%);
     background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
     border-radius: 100px;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
     transform-origin: center;
+  }
+  header.mobile-header .burger .bottom {
+    transform: rotate(0);
   }
   header.mobile-header .menu {
     -webkit-box-sizing: border-box;
@@ -73,17 +82,43 @@
     background-image: linear-gradient(-179deg, #e8921e 0%, #ce652c 100%);
   }
 
+  .moveTop {
+    position: absolute;
+    animation: moveTop 0.5s !important;
+    bottom: 13.5px !important;
+    transform: rotate(-45deg) !important;
+  }
+
+  .moveBottom {
+    position: absolute;
+    animation: moveBot 0.5s !important;
+    top: 13.5px !important;
+    transform: rotate(45deg) !important;
+  }
+
+  moveTopRev {
+    animation: moveTopRev 0.5s !important;
+    position: static;
+  }
+
+  moveBottomRev {
+    animation: moveBotRev 0.5s !important;
+    position: static;
+  }
+
   @keyframes moveTop {
     0% {
+      bottom: 0;
       transform: rotate(0deg);
     }
     100% {
       transform: rotate(-45deg);
-      bottom: 28.5px;
+      bottom: 13.5px;
     }
   }
   @keyframes moveBot {
     0% {
+      top: 0;
       transform: rotate(0deg);
     }
     100% {
@@ -100,14 +135,12 @@
     50% {
       transform: rotate(0deg);
     }
-    70% {
-      top: 13.5px;
-    }
     100% {
+      position: static;
       top: 0;
     }
   }
-  @keyframes moveBotRev {
+  @keyframes moveBottomRev {
     0% {
       position: absolute;
       transform: rotate(-45deg);
@@ -116,10 +149,8 @@
     50% {
       transform: rotate(0deg);
     }
-    70% {
-      bottom: 13.5px;
-    }
     100% {
+      position: static;
       bottom: 0;
     }
   }
