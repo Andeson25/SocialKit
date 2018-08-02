@@ -126,7 +126,7 @@ $(document).ready(() => {
     }
     
     $('.mobile-header .menu a').click(()=>{
-        showBurger();
+        $('.burger').trigger('click');
     })
 
     $('.burger').click(() => {
