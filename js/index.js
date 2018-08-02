@@ -124,6 +124,10 @@ $(document).ready(() => {
             menu.css('right', '-100%')
         }
     }
+    
+    $('.menu a').click(()=>{
+        showBurger();
+    })
 
     $('.burger').click(() => {
         let burger = $('.burger');
