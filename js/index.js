@@ -125,7 +125,7 @@ $(document).ready(() => {
         }
     }
     
-    $('.menu a').click(()=>{
+    $('.mobile-header .menu a').click(()=>{
         showBurger();
     })
 
