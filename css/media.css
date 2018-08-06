@@ -45,8 +45,6 @@
   header.mobile-header .menu {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    border-left: 5px solid yellow;
-    border-image: url("../assets/ManageBack.png") 5 round round;
     box-sizing: border-box;
     padding: 0 5px;
     z-index: 11;
@@ -59,7 +57,7 @@
     font-family: Montserrat-Regular;
   }
   header.mobile-header .menu a {
-    margin: 30px 0;
+    margin: 15px 0;
     color: #FFFFFF;
     line-height: 24px;
     font-size: 16px;
@@ -75,7 +73,7 @@
     margin-right: 0;
     background-image: linear-gradient(-179deg, #F89F1C 0%, #EF7231 100%);
     border-radius: 100px;
-    padding: 10px 30px;
+    padding: 10px 15px;
     color: #ffffff;
   }
   header.mobile-header .menu a:last-child:hover {
@@ -157,7 +155,7 @@
   section.iphone-wrapper {
     overflow: hidden !important;
   }
-  section.iphone-wrapper header {
+  section.iphone-wrapper header:not(.mobile-header) {
     display: none !important;
   }
   section.iphone-wrapper .iphone {
@@ -171,22 +169,22 @@
     left: calc(-13vw) !important;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification {
-    width: 70% !important;
+    width: 80% !important;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .top img {
     height: 25px;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .top h2 {
-    font-size: 8px;
+    font-size: 10px;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .top small {
-    font-size: 7px;
+    font-size: 8px;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .text h3 {
-    font-size: 8px;
+    font-size: 9px;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .text p {
-    font-size: 8px;
+    font-size: 9px;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .text small {
     font-size: 7px;
@@ -196,26 +194,31 @@
     width: 90%;
   }
   section#reviews .review .circle-review {
-    width: 20%;
+    width: 25%;
   }
   section#reviews .review .message-review {
-    padding: 5px 10px;
+    padding: 10px 15px;
   }
   section#reviews .review .message-review p {
-    font-size: 10px;
+    line-height: 14px !important;
+    font-size: 12px;
   }
   section#reviews .review .message-review small {
-    font-size: 8px;
+    line-height: 11px !important;
+    font-size: 11px;
   }
   section#reviews .review .message-review img {
+    bottom: calc(50% - 40px) !important;
     height: 20px;
     left: -17px;
   }
   section#reviews .review.second .message-review img {
+    bottom: calc(50% - 32px) !important;
     height: 20px;
-    right: -20px;
+    right: -15px;
   }
   section#reviews .review.third .message-review img {
+    bottom: calc(50% - 40px) !important;
     left: -15px;
   }
   section#reviews a {
@@ -229,9 +232,46 @@
   #manage#manage, #create#manage, #growth#manage {
     flex-direction: column-reverse !important;
   }
+  #manage#manage img.circle-svg, #create#manage img.circle-svg, #growth#manage img.circle-svg {
+    width: 28% !important;
+    top: 12.5% !important;
+  }
+  #manage#manage img.cross-svg, #create#manage img.cross-svg, #growth#manage img.cross-svg {
+    bottom: 20%;
+    width: 30%;
+  }
+  #manage#create .circle-big, #create#create .circle-big, #growth#create .circle-big {
+    bottom: 70vh !important;
+  }
+  #manage#create .circle-small, #create#create .circle-small, #growth#create .circle-small {
+    bottom: 62vh !important;
+  }
+  #manage#create .cross, #create#create .cross, #growth#create .cross {
+    width: 25%;
+    bottom: 35vh;
+  }
+  #manage#growth .triangle, #create#growth .triangle, #growth#growth .triangle {
+    width: 40% !important;
+  }
+  #manage#growth .circle-big, #create#growth .circle-big, #growth#growth .circle-big {
+    width: 12% !important;
+    top: 40vh !important;
+  }
+  #manage#growth .circle-small, #create#growth .circle-small, #growth#growth .circle-small {
+    right: 2.5% !important;
+    width: 7% !important;
+    top: 46vh !important;
+  }
+  #manage .middle-card, #create .middle-card, #growth .middle-card {
+    box-shadow: rgba(0, 0, 0, 0.4) -1px 2px 20px !important;
+  }
   #manage .back-card, #create .back-card, #growth .back-card {
-    height: 55vw !important;
-    width: 30% !important;
+    box-shadow: rgba(0, 0, 0, 0.4) -1px 2px 20px !important;
+    height: 75vw !important;
+    width: 40% !important;
+  }
+  #manage .back-card .front-card, #create .back-card .front-card, #growth .back-card .front-card {
+    box-shadow: rgba(0, 0, 0, 0.4) -1px 2px 20px !important;
   }
   #manage .text, #create .text, #growth .text {
     margin: 20px 0 !important;
@@ -242,6 +282,7 @@
     font-size: 28px !important;
   }
   #manage .text p, #create .text p, #growth .text p {
+    font-family: Montserrat-Regular, sans-serif !important;
     font-size: 14px !important;
   }
 
@@ -263,11 +304,43 @@
     padding-top: 70px !important;
     height: auto !important;
   }
+  #pricing img.half-circle {
+    top: 30vh !important;
+    width: 80% !important;
+  }
+  #pricing .small-circle {
+    top: 5vh !important;
+    right: 15% !important;
+  }
+  #pricing .empty-circle {
+    right: 8% !important;
+    top: 10vh !important;
+  }
   #pricing h2 {
     font-size: 35px !important;
   }
   #pricing p {
     font-size: 16px !important;
+  }
+  #pricing td {
+    padding: 5px 15px !important;
+    font-size: 16px !important;
+  }
+  #pricing th {
+    font-size: 38px !important;
+  }
+  #pricing th small {
+    font-size: 18px !important;
+  }
+  #pricing table td:last-child {
+    padding: 5%;
+  }
+  #pricing table td:last-child a {
+    margin-top: 5% !important;
+    margin-bottom: 0 !important;
+    width: 70% !important;
+    padding: 10px 30px !important;
+    font-size: 18px !important;
   }
   #pricing .pricing {
     height: auto !important;
