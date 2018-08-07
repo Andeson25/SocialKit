@@ -162,6 +162,7 @@
     width: 75%;
   }
   section.iphone-wrapper .iphone .emoji {
+    z-index: 30;
     left: -1%;
     width: 105%;
     top: -40%;
