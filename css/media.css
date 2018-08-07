@@ -166,6 +166,7 @@
     left: -1%;
     width: 105%;
     top: -40%;
+    filter: blur(0);
   }
   section.iphone-wrapper .iphone .inner-container .inner {
     top: calc(-4vw) !important;
