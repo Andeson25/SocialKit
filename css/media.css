@@ -263,6 +263,9 @@
     width: 25%;
     bottom: 35vh;
   }
+  #manage#growth h2, #create#growth h2, #growth#growth h2 {
+    margin-top: 15px !important;
+  }
   #manage#growth .triangle, #create#growth .triangle, #growth#growth .triangle {
     width: 40% !important;
   }
