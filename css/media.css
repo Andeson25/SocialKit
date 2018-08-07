@@ -185,7 +185,7 @@
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .top h2 {
     font-family: "Montserrat-Regular", sans-serif;
-    font-weight: bold !important;
+    font-weight: lighter;
     font-size: 10px;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .top small {
