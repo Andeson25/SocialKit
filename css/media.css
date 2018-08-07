@@ -163,20 +163,28 @@
   }
   section.iphone-wrapper .iphone .emoji {
     left: -1%;
+    width: 105%;
+    top: -40%;
   }
   section.iphone-wrapper .iphone .inner-container .inner {
     top: calc(-4vw) !important;
     left: calc(-13vw) !important;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification {
+    border-radius: 3px;
     width: 80% !important;
   }
+  section.iphone-wrapper .iphone .inner-container .box .notification .top {
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+  }
   section.iphone-wrapper .iphone .inner-container .box .notification .top img {
+    margin-left: -8px;
     margin-right: 1px !important;
     height: 15px !important;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .top h2 {
-    font-family: Montserrat-Regular, sans-serif;
+    font-family: "Montserrat-Regular", sans-serif;
     font-weight: bold !important;
     font-size: 10px;
   }
@@ -189,7 +197,7 @@
     font-size: 7px !important;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .text p {
-    font-family: "Montserrat-Regular", sans-serif;
+    font-family: "Montserrat-SemiBold", sans-serif;
     font-size: 6px;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .text small {
