@@ -159,7 +159,7 @@
     display: none !important;
   }
   section.iphone-wrapper .iphone {
-    width: 90%;
+    width: 75%;
   }
   section.iphone-wrapper .iphone .emoji {
     left: -1%;
@@ -169,7 +169,7 @@
     left: calc(-13vw) !important;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification {
-    width: 80% !important;
+    width: 75% !important;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .top img {
     margin-right: 1px !important;
@@ -178,22 +178,22 @@
   section.iphone-wrapper .iphone .inner-container .box .notification .top h2 {
     font-family: Montserrat-Regular, sans-serif;
     font-weight: bold !important;
-    font-size: 9px;
+    font-size: 10px;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .top small {
-    font-size: 8px;
+    font-size: 7px;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .text h3 {
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: bold !important;
-    font-size: 9px !important;
+    font-size: 8px !important;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .text p {
     font-family: "Montserrat-Regular", sans-serif;
-    font-size: 9px;
+    font-size: 7px;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification .text small {
-    font-size: 8px;
+    font-size: 7px;
   }
 
   section#reviews .review {
