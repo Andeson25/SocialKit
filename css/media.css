@@ -165,13 +165,18 @@
     z-index: 30;
     left: -1%;
     width: 105%;
-    top: -195%;
+    top: -190%;
     filter: blur(0);
   }
   section.iphone-wrapper .iphone .inner-container {
-    width: 98%;
-    height: 94%;
-    border-radius: 10%;
+    overflow: hidden !important;
+    width: 95.5% !important;
+    height: 94% !important;
+    top: 5.5% !important;
+    left: 2.25% !important;
+    border-radius: 10% !important;
+    -moz-border-radius: 10% !important;
+    -webkit-border-radius: 10% !important;
   }
   section.iphone-wrapper .iphone .inner-container .inner {
     border-radius: 20px !important;
