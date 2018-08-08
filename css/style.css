@@ -118,7 +118,8 @@ section.iphone-wrapper .iphone {
 section.iphone-wrapper .iphone .emoji, section.iphone-wrapper .iphone svg {
   position: absolute;
   z-index: 2;
-  top: -50%;
+  top: -10%;
+  transform: scale(1.5);
   left: 1%;
   width: 100%;
 }

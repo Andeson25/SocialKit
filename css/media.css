@@ -172,13 +172,7 @@
     z-index: 30;
     left: -1%;
     width: 105%;
-    top: -270px !important;
     filter: blur(0);
-  }
-}
-@media only screen and (max-device-width: 900px) and (orientation: landscape) {
-  section.iphone-wrapper .iphone .emoji, section.iphone-wrapper .iphone svg {
-    top: -260px !important;
   }
 }
 @media only screen and (max-device-width: 900px) {
