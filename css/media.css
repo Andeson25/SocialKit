@@ -172,7 +172,7 @@
     z-index: 30;
     left: -1%;
     width: 105%;
-    top: -270px;
+    top: -270px !important;
     filter: blur(0);
   }
 }

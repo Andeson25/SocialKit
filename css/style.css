@@ -182,7 +182,7 @@ section.iphone-wrapper .iphone .box .notification .text p {
 section.iphone-wrapper .iphone .box .notification .text small {
   cursor: pointer;
   opacity: 0.35;
-  font-family: Montserrat-Regular;
+  font-family: "Montserrat-Regular", sans-serif;
   font-size: 10px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -208,7 +208,7 @@ section.iphone-wrapper .iphone .box .notification .top .left img {
 section.iphone-wrapper .iphone .box .notification .top .left h2 {
   margin: 0;
   display: inline-block;
-  font-family: "Montserrat-Regular", sans-serif;
+  font-family: "Montserrat-SemiBold", sans-serif;
   font-size: 13px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -219,7 +219,7 @@ section.iphone-wrapper .iphone .box .notification .top small {
   color: #FFFFFF;
   letter-spacing: 0;
   text-align: right;
-  font-family: "Montserrat-Light", sans-serif;
+  font-family: "Montserrat-Regular", sans-serif;
 }
 
 section#manage {
