@@ -673,7 +673,7 @@ section#pricing .pricing table tbody tr:last-child td a {
   outline: none;
   display: block;
   cursor: pointer;
-  margin: 20px auto 0;
+  margin: 20px auto 0 !important;
   width: 50%;
   font-family: Montserrat-SemiBold;
   border: 0;
