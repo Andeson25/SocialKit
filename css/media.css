@@ -432,7 +432,7 @@
 }
 @media only screen and (max-device-width: 900px) {
   #manage .back-card, #create .back-card, #growth .back-card {
-    height: 75vw !important;
+    height: 70vw !important;
     width: 35% !important;
   }
 }
