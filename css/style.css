@@ -415,7 +415,6 @@ section#growth figure.back-card figure.front-card {
   bottom: 2vh;
   right: 3vw;
   height: 100%;
-  border-radius: 5px;
   position: relative;
   border: 5px solid yellow;
   box-shadow: rgba(0, 0, 0, 0.6) 1.5px 1.5px 8px;
