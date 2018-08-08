@@ -161,15 +161,21 @@
   section.iphone-wrapper .iphone {
     width: 75%;
   }
-  section.iphone-wrapper .iphone .emoji {
+  section.iphone-wrapper .iphone .emoji, section.iphone-wrapper .iphone svg {
     z-index: 30;
     left: -1%;
     width: 105%;
-    top: -40%;
+    top: -195%;
     filter: blur(0);
   }
+  section.iphone-wrapper .iphone .inner-container {
+    width: 98%;
+    height: 94%;
+    border-radius: 10%;
+  }
   section.iphone-wrapper .iphone .inner-container .inner {
-    top: calc(-4vw) !important;
+    border-radius: 20px !important;
+    top: calc(-12.5vw) !important;
     left: calc(-13vw) !important;
   }
   section.iphone-wrapper .iphone .inner-container .box .notification {

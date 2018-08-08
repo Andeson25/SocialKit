@@ -115,11 +115,11 @@ section.iphone-wrapper .iphone {
   visibility: hidden;
   width: 50%;
 }
-section.iphone-wrapper .iphone .emoji {
+section.iphone-wrapper .iphone .emoji, section.iphone-wrapper .iphone svg {
   position: absolute;
   z-index: 2;
-  top: -25%;
-  left: -5%;
+  top: -50%;
+  left: 1%;
   width: 100%;
 }
 section.iphone-wrapper .iphone img {
