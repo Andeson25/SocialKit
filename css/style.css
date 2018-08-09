@@ -157,7 +157,7 @@ section.iphone-wrapper .iphone .box {
 }
 section.iphone-wrapper .iphone .box .notification {
   width: 400px;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 13px;
 }
 section.iphone-wrapper .iphone .box .notification .text {
@@ -195,7 +195,7 @@ section.iphone-wrapper .iphone .box .notification .top {
   border-top-right-radius: 13px;
   border-top-left-radius: 13px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
 }
 section.iphone-wrapper .iphone .box .notification .top .left {
   /*
