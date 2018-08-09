@@ -492,7 +492,7 @@ section#reviews .review .message-review p {
   line-height: 24px;
   color: #FFFFFF;
   letter-spacing: 0;
-  margin: 0;
+  margin: 0 0 10px;
 }
 section#reviews .review .message-review small {
   text-align: end;
